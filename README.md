@@ -2,6 +2,26 @@
 
 A StackOverflow-style Q&A community platform with channels, threaded replies, voting, image uploads, and full admin controls.
 
+# Installation and Run Steps
+
+- Git clone the repository
+    `git clone https://github.com/ayaanmk03/CMPT353-Project-`
+-   `cp .env.example .env`
+- `cd CMPT353-Project-`
+
+- Make sure docker is running
+- Build the containers
+    `docker compose build`
+
+- Start the project
+    `docker-compose up -d`
+
+- Open the app in the browser
+    `http://localhost:3000`
+   
+- Stop the project
+    `docker-compose down`
+
 ## Tech Stack
 
 - **Framework:** Next.js 16 (App Router) — React frontend + API routes in one
@@ -34,7 +54,7 @@ The database seeds from `data/db.json` automatically on first boot.
 
 | Username | Password | Role |
 |---|---|---|
-| `ayaan` | `password123` | admin |
+| `admin` | `password123` | admin |
 
 > To create your own admin: Click **Join free** → check **Register as Administrator**.
 
