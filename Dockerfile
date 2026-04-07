@@ -13,7 +13,7 @@ RUN mkdir -p uploads data
 WORKDIR /app/next-app
 EXPOSE 3000
 
-# Next.js telemetry disable
+# to checkif automatic collection is disable
 ENV NEXT_TELEMETRY_DISABLED 1
 
 RUN npm run build

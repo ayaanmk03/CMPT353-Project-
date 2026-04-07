@@ -7,7 +7,7 @@ A StackOverflow-style Q&A community platform with channels, threaded replies, vo
 - Git clone the repository
     `git clone https://github.com/ayaanmk03/CMPT353-Project-`
 -   `cp .env.example .env`
-- `cd CMPT353-Project-`
+- `cd next-app`
 
 - Make sure docker is running
 - Build the containers
@@ -29,17 +29,16 @@ A StackOverflow-style Q&A community platform with channels, threaded replies, vo
 - **Auth:** JWT stored in `httpOnly` cookies, passwords hashed with `bcryptjs`
 - **Images:** Uploaded via `multipart/form-data`, stored in `/uploads` volume, served at `/uploads/[filename]`
 
-## 🐳 Running with Docker (Marker Instructions)
+## Running with Docker
 
 ```bash
-git clone <repo-url>
-cd Project
+git clone <https://github.com/ayaanmk03/CMPT353-Project->
+cp .env.example .env
+cd next-app
 docker-compose up --build
 ```
 
-App will be available at **http://localhost:3000**
-
-> No extra steps required. The database auto-initializes and seeds itself on first boot.
+App available at **http://localhost:3000**
 
 ## Default Ports
 
@@ -72,7 +71,7 @@ The database seeds from `data/db.json` automatically on first boot.
 - Only logged-in users can create posts or replies
 - Passwords stored as bcrypt hashes
 - Username shown on all posts and replies
-- Admin panel (`⚙ Panel` button): delete users, channels, posts, replies
+- Admin panel (`Panel` button): delete users, channels, posts, replies
 
 ### Part 3 — Threaded Replies + Voting
 - Reddit-style nested reply threads (infinite depth)
