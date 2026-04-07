@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "ayaan",
+      "password_hash": "$2a$10$ipeZcuX99MlvZy2iuxT0Bu7ojkk.jGZqoaGfqVkre.ZKUKRReQ/FW",
+      "role": "admin",
+      "created_at": "2026-04-03T22:16:29.850Z"
+    }
+  ],
+  "channels": [
+    {
+      "id": 1,
+      "name": "Docker",
+      "description": "Questions about Docker",
+      "created_by": null,
+      "created_at": "2026-04-03T22:15:48.079Z"
+    },
+    {
+      "id": 2,
+      "name": "Python",
+      "description": "Questions about Python",
+      "created_by": null,
+      "created_at": "2026-04-03T22:15:48.079Z"
+    },
+    {
+      "id": 3,
+      "name": "CSS Styling",
+      "description": "CSS and UI styling discussions",
+      "created_by": null,
+      "created_at": "2026-04-03T22:15:48.079Z"
+    }
+  ],
+  "posts": [],
+  "replies": [],
+  "votes": []
+}
