@@ -115,7 +115,7 @@ The search bar can be used to find any channels, posts or replies
 
 ### Strategy: Filesystem Storage
 
-Images are saved to a Docker-mounted folder called `uploads` and are not stored in the database.
+Images are saved to a Docker folder called `uploads` and are not stored in the database.
 
 When the user uploads an image, the server validates the image MIME type, file extension and file size (max 5 MB). The file is written to disk, and its path is stored in the database.
 
