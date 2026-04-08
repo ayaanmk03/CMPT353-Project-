@@ -23,6 +23,8 @@ A StackOverflow-style Q&A community platform with channels, threaded replies, vo
 - Stop the project
     `docker-compose down`
 
+# Demo Video link `https://youtu.be/Y85DZu5q8VI`
+
 ## Tech Stack
 
 - **Framework:** Next.js 16 (App Router) — React frontend + API routes in one
