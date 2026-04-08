@@ -6,7 +6,8 @@ A StackOverflow-style Q&A community platform with channels, threaded replies, vo
 
 - Git clone the repository
     `git clone https://github.com/ayaanmk03/CMPT353-Project-`
--   `cp .env.example .env`
+- `cd CMPT353-Project-`
+- `cp .env.example .env`
 - `cd next-app`
 
 - Make sure docker is running
@@ -51,11 +52,14 @@ App available at **http://localhost:3000**
 
 The database seeds from `data/db.json` automatically on first boot.
 
-| Username | Password | Role |
-|---|---|---|
-| `admin` | `password123` | admin |
+> Create your own admin: Click **Join free** → check **Register as Administrator**.
 
-> To create your own admin: Click **Join free** → check **Register as Administrator**.
+EXAMPLE:
+
+| Username | Password      | Role  |
+|--------- | ------------- | ----- |
+| `admin`  | `password123` | admin |
+
 
 ## Features by Requirement
 
